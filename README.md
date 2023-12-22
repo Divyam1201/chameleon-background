@@ -44,11 +44,9 @@ Project Structure
 |-- package.json
 |-- README.md
 
-src/components/ColorList.js: Component responsible for rendering the list of predefined colors in the sidebar.
+src/components/Colorpicker.js: Component responsible for rendering the list of predefined colors in the sidebar.
 
-src/components/ColorChanger.js: Component responsible for dynamically changing the background color based on the selected color.
-
-src/App.js: Main application component that includes ColorList and ColorChanger.
+src/App.js: Main application component that includes ColorList and ColorChanger and  responsible for dynamically changing the background color based on the selected color.
 
 public/index.html: HTML template for the application.
 
