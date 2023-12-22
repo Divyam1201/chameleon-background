@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Colorpicker from './assets/Colorpicker'
+import Colorpicker from './components/Colorpicker'
 
 const App = () => {
   let colors=['Red','White','Yellow','Purple','Green','Blue','Gray','Olive','Pink','Orange','Maroon']
