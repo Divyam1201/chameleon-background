@@ -1,30 +1,26 @@
+# Chameleon Background - React Color Changer Project
+
 Chameleon Background is a simple React project that enables users to dynamically change the background color of the website by selecting predefined colors in the sidebar.
 
-Getting Started
+## Getting Started
+
 To run this project locally, follow the steps below:
 
-Clone the repository:
+1. Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/your-username/chameleon-background.git
-Change into the project directory:
+   ```bash
+   git clone https://github.com/Divyam1201/chameleon-background.git
 
-bash
-Copy code
-cd chameleon-background
-Install dependencies:
-
-bash
-Copy code
-npm install
-Start the development server:
-
-bash
-Copy code
-npm start
-The application will be accessible at http://localhost:3000 in your web browser.
-
+2. Now Change into the project directory:
+   ```bash
+   cd chameleon-background
+3. Install dependencies:
+   ```bash
+   npm install
+4. Start the development server:
+   ```bash
+   npm start
+  
 Usage
 Open the Chameleon Background website in your browser.
 
@@ -37,20 +33,17 @@ Color Changing: Effortlessly change the background color by selecting a color in
 
 Predefined Colors: A curated list of predefined colors is provided for convenient and quick selection.
 
-Project Structure
-lua
-Copy code
+Project Structure 
 |-- src
 |   |-- components
-|   |   |-- ColorList.js
-|   |   |-- ColorChanger.js
-|   |-- App.js
-|   |-- App.css
-|   |-- index.js
-|-- public
-|   |-- index.html
+|   |   |-- Colorpicker.jsx
+|   |-- App.jsx
+|   |-- index.css
+|   |-- main.jsx
+|-- index.html
 |-- package.json
 |-- README.md
+
 src/components/ColorList.js: Component responsible for rendering the list of predefined colors in the sidebar.
 
 src/components/ColorChanger.js: Component responsible for dynamically changing the background color based on the selected color.
@@ -71,3 +64,4 @@ Acknowledgments
 Thanks to the React community for creating an incredible library.
 Inspired by other color changer projects.
 Happy coding! 🌈
+
